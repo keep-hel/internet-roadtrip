@@ -1,0 +1,195 @@
+
+
+.hot-order-tt {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    /* background-color: red; */
+    width:  1100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    
+}
+
+.hot-order {
+    margin: 4% auto 8%;
+    width:  1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hot-order .game {
+    margin-bottom: 50px;
+    width: 320px;
+    height: 310px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    transition: all 0.4s; 
+    position: relative;
+}
+
+.hot-order .game:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.game img {
+    height: 190px;
+}
+
+.hot-order .game .game-tt {
+    margin: 0 14px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hot-order .game .game-txt {
+    margin: 0 5px 0 14px;
+    font-size: 18px;
+    color: #6b6b6b;
+    line-height: 22px;
+}
+
+.hot-order .game .game-btn {
+    background-color: #ea333d;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -60px;
+    cursor: pointer;
+}
+
+.hot-order .game .game-btn:hover {
+    /* color: #f1fa00; */
+    background-color: #ed4851;
+}
+
+
+@keyframes big {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+
+@keyframes xing {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(0.8);
+    }
+}
+
+.order {
+    margin: 4% auto 0%;
+    width:  1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order .game3 {
+    margin-bottom: 50px;
+    width: 240px;
+    height: 220px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    transition: all 0.4s; 
+    position: relative;
+}
+
+.order .game3:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.game3 img {
+    height: 130px;
+}
+
+.order .game3 .game3-tt {
+    margin: 0 14px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.order .game3 .game3-txt {
+    margin: 0 5px 0 14px;
+    font-size: 18px;
+    color: #6b6b6b;
+    line-height: 22px;
+}
+
+.order .game3 .game3-btn {
+    background-color: #ea333d;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.order .game3 .game3-btn:hover {
+    /* color: #f1fa00; */
+    background-color: #ed4851;
+}
+
+.hot-game-footer {
+    height: 200px;
+    width: 100px;
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination .square {
+    font-weight: bold;
+    width: 42px;
+    height: 42px;
+    /* background-color: red; */
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.pagination .active-style {
+    background-color: red;
+}
+
+
+.botton-btn {
+    cursor: pointer;
+}
