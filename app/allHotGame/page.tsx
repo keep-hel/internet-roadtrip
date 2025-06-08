@@ -6,6 +6,6 @@ export default function Example() {
     <div>
       <HeaderNav />
       <MainGenerator />
-    </div>
+    </div> 
   )
 }
