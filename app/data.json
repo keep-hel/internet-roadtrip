@@ -3954,5 +3954,103 @@
         ]
       }
     ]
+  },
+  "bottle-jump": {
+    "h1": "Bottle Jump",
+    "introduction": "Bottle Jump: A thrilling game where precision is key! Guide your bottle, avoid hazards, and hit targets. Test your timing and aiming skills today!",
+    "link": "https://game.azgame.io/bottle-jump/",
+    "overview": [
+      {
+        "title": "Bottle Jump Overview",
+        "txt": [
+          "Bottle Jump is a captivating physics-based puzzle game where you control a jumping bottle, navigating it through challenging environments to reach its target. Master precision jumps and clever flips to succeed!",
+          "Experience a unique blend of skill, timing, and physics as you guide your bottle over obstacles, onto platforms, and into designated landing zones. It's a surprisingly deep challenge with simple mechanics."
+        ]
+      },
+      {
+        "title": "Bottle Jump Game Features",
+        "txt": [
+          "Realistic Bottle Physics: Enjoy authentic bottle flipping and jumping mechanics.",
+          "Challenging Puzzle Levels: Navigate diverse environments filled with unique obstacles and platforms.",
+          "Precision-Based Gameplay: Success depends on accurate timing and power control for jumps.",
+          "Collectible Stars/Items: Gather stars or other items to unlock new levels or bottle customizations.",
+          "Variety of Bottle Skins: Unlock and personalize your bottle with different designs.",
+          "Intuitive Controls: Easy to learn tap-and-release mechanics for jumping.",
+          "Progressive Difficulty: Levels become more intricate and demanding as you advance."
+        ]
+      },
+      {
+        "title": "How to Play Bottle Jump",
+        "txt": [
+          "Tap and hold the screen to charge your jump power.",
+          "Release your finger at the desired power level to make the bottle jump.",
+          "Aim your jumps carefully to land on platforms, avoid obstacles, or hit targets.",
+          "Master the 'bottle flip' to land perfectly upright for bonus points or to access certain areas.",
+          "Collect all stars or designated items in each level to achieve full completion.",
+          "Navigate through the levels, reaching the final target or exit point.",
+          "Experiment with different jump strengths and angles to overcome tricky obstacles."
+        ]
+      },
+      {
+        "title": "Why Bottle Jump is So Addictive",
+        "txt": [
+          "The Satisfying Physics: Landing a perfect bottle flip or jump feels incredibly rewarding.",
+          "The Precision Challenge: The constant need for accurate timing keeps you engaged.",
+          "The Sense of Accomplishment: Overcoming difficult levels through skillful jumps.",
+          "The Drive for Perfection: Aiming for perfect landings and collecting all items.",
+          "The Simple Yet Deep Gameplay: Easy to pick up but offers significant skill progression.",
+          "The Quick and Engaging Sessions: Perfect for short bursts of focused fun."
+        ]
+      }
+    ]
+  },
+  "golf-orbit": {
+    "h1": "Golf Orbit",
+    "introduction": "Ready for golf with a twist? Golf Orbit lets you aim, launch, and orbit your ball around celestial bodies. Master cosmic physics and hit stellar shots!",
+    "link": "https://html5.gamedistribution.com/rvvASMiM/02ff01e6e9f7451ba28d889a2a55eec9/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwordle2.io%2Fgolf-orbit.embed&rd=1&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3dvcmRsZTIuaW8vZ29sZi1vcmJpdC5lbWJlZCIsInBhcmVudERvbWFpbiI6IndvcmRsZTIuaW8iLCJ0b3BEb21haW4iOiJ3b3JkbGUyLmlvIiwiaGFzSW1wcmVzc2lvbiI6dHJ1ZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
+    "overview": [
+      {
+        "title": "Golf Orbit Overview",
+        "txt": [
+          "Golf Orbit is an out-of-this-world arcade golf game where you launch your ball with precision into the vastness of space, guiding it around planets and through asteroid fields to reach cosmic holes. It’s golf reimagined!",
+          "Experience dynamic gravitational physics, strategic trajectory planning, and boundless celestial exploration. Command your ball through challenging cosmic courses, aiming for that perfect orbital swing to become a galactic golf master."
+        ]
+      },
+      {
+        "title": "Golf Orbit Game Features",
+        "txt": [
+          "Innovative Space Golf: A fresh take on golf gameplay within a cosmic setting.",
+          "Authentic Orbital Physics: Realistic gravitational pulls and trajectories to master.",
+          "Expansive Celestial Courses: Play across a multitude of unique planets, moons, and space structures.",
+          "Precision Launch System: Fine-tune your power and angle for pinpoint accuracy in space.",
+          "Collectibles & Unlockables: Gather cosmic currencies and special items to expand your golf arsenal.",
+          "Customizable Ball Options: Personalize your golf ball with various designs and properties.",
+          "Skill-Based Progression: Levels increase in complexity, demanding greater skill and strategic foresight."
+        ]
+      },
+      {
+        "title": "How to Play Golf Orbit",
+        "txt": [
+          "Initiate your shot by dragging your finger or mouse to adjust the trajectory and power indicator.",
+          "Release to launch your golf ball into its intended cosmic path.",
+          "Utilize the gravitational fields of planets to curve your shots, slingshot around obstacles, or reach distant targets.",
+          "Carefully avoid hitting asteroids, space debris, or other hazards that will end your current shot.",
+          "Collect any floating stars or special gems; these contribute to your score and unlock new game content.",
+          "Guide your ball accurately into the glowing cosmic hole to successfully complete each challenging course.",
+          "Strive to use the minimum number of strokes possible (par) to earn maximum rewards and secure your place on leaderboards."
+        ]
+      },
+      {
+        "title": "Why Golf Orbit is So Addictive",
+        "txt": [
+          "The Sheer Creativity of the Concept: Orbital golf is an ingenious twist that keeps gameplay exciting.",
+          "The Deeply Satisfying Physics Engine: The realistic gravitational interactions make every successful shot feel incredibly earned.",
+          "The Compelling Drive for Perfection: The urge to sink a 'hole-in-one' across the cosmos is a powerful motivator.",
+          "The Visual Grandeur of Space: Breathtaking nebulae, planets, and stars create an immersive and beautiful backdrop.",
+          "The Strategic Depth: Each shot is a complex puzzle requiring foresight and a clever understanding of gravity.",
+          "The Sense of Continuous Discovery: Always new planets, challenges, and customizable items to unlock and master."
+        ]
+      }
+    ]
   }
 }
