@@ -397,9 +397,9 @@
         "title": "Merge Fellas Game Features",
         "txt": [
           "Many fun and addictive modes: Fellas Mode, Cat Mode, Dog Mode, Meme Mode, Friends Mode, Capybara Mode, and more, providing a comfortable and satisfying gaming experience.",
-          "**Fellas Mode:** Aim and drop pets to create new ones. Famous pets await discovery. Your goal is to create a giant Capybara.",
-          "**Cat & Dog Modes:** Merge the most famous and cutest cats and dogs. The more you merge, the cuter they become.",
-          "**Capybara Mode:** Your task is to merge lovely Capybaras, creating the cutest and most unique ones. Discover unique combinations like Bee Capybara, Donut Capybara, Cool Capybara, Capybara with Turtle, Capybara & Pelican, Capybara & Crocodile.",
+          "Fellas Mode: Aim and drop pets to create new ones. Famous pets await discovery. Your goal is to create a giant Capybara.",
+          "Cat & Dog Modes: Merge the most famous and cutest cats and dogs. The more you merge, the cuter they become.",
+          "Capybara Mode: Your task is to merge lovely Capybaras, creating the cutest and most unique ones. Discover unique combinations like Bee Capybara, Donut Capybara, Cool Capybara, Capybara with Turtle, Capybara & Pelican, Capybara & Crocodile.",
           "Free and popular matching merge puzzle game that doesn't require Wi-Fi or internet connection.",
           "Use logic and strategy to solve puzzles and enhance your mind, even in offline mode.",
           "Simple and addictive gameplay suitable for friends and family.",
@@ -4049,6 +4049,148 @@
           "The Visual Grandeur of Space: Breathtaking nebulae, planets, and stars create an immersive and beautiful backdrop.",
           "The Strategic Depth: Each shot is a complex puzzle requiring foresight and a clever understanding of gravity.",
           "The Sense of Continuous Discovery: Always new planets, challenges, and customizable items to unlock and master."
+        ]
+      }
+    ]
+  },
+  "bubble-letters": {
+    "h1": "Bubble Letters",
+    "introduction": "Ready for golf with a twist? Golf Orbit lets you aim, launch, and orbit your ball around celestial bodies. Master cosmic physics and hit stellar shots!",
+    "link": "https://html5.gamedistribution.com/rvvASMiM/365b4962c5894454ac7ac9e75ea0fb69/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwordhurdle.co%2Fbubble-letters.embed&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3dvcmRodXJkbGUuY28vYnViYmxlLWxldHRlcnMuZW1iZWQiLCJwYXJlbnREb21haW4iOiJ3b3JkaHVyZGxlLmNvIiwidG9wRG9tYWluIjoid29yZGh1cmRsZS5jbyIsImhhc0ltcHJlc3Npb24iOnRydWUsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTcifQ%253D%253D",
+    "overview": [
+      {
+        "title": "Bubble Letters Overview",
+        "txt": [
+          "Bubble Letters is an enchanting word puzzle game where players strategically pop colorful letter bubbles to form words, clear the playing field, and push their vocabulary skills. It's an irresistible fusion of word search and bubble shooter mechanics!",
+          "Immerse yourself in a vibrant, tactile experience. Each word created, each bubble popped, brings satisfying progress and reveals new linguistic challenges. Expand your mind in this bubbly adventure!"
+        ]
+      },
+      {
+        "title": "Bubble Letters Game Features",
+        "txt": [
+          "Innovative Word-Popping Gameplay: Combine letters by tapping adjacent bubbles to form valid words.",
+          "Dynamic & Responsive Bubbles: Enjoy fluid animations and satisfying sound effects as bubbles pop and fall.",
+          "Thought-Provoking Level Design: Conquer a wide array of stages with unique letter arrangements and objectives.",
+          "Vocabulary Expansion: Discover new words and learn as you play, enhancing your language skills.",
+          "Strategic Power-Up Bubbles: Utilize special bubbles (e.g., Bomb, Wildcard) for explosive plays and crucial advantages.",
+          "Achievement & Ranking System: Track your progress, earn achievements, and compete on global leaderboards.",
+          "Calming Yet Mentally Stimulating: A perfect balance for casual players seeking both relaxation and a brain workout."
+        ]
+      },
+      {
+        "title": "How to Play Bubble Letters",
+        "txt": [
+          "Identify a sequence of adjacent letter bubbles that form a valid word (horizontal, vertical, or diagonal).",
+          "Tap on the first letter of your chosen word, then continue tapping adjacent letters to complete the word.",
+          "Once the word is confirmed, the selected bubbles will burst, clearing space on the board.",
+          "New letter bubbles will typically cascade down from the top to fill any empty gaps, potentially creating new opportunities.",
+          "Your primary goals typically involve clearing a certain number of bubbles, reaching a target score, or spelling specific words.",
+          "Strategically aim for longer words or utilize special bubbles to create chain reactions and clear larger sections of the board for bonus points.",
+          "Progress through the numerous levels by successfully achieving the objectives of each puzzle in Bubble Letters."
+        ]
+      },
+      {
+        "title": "Why Bubble Letters is So Addictive",
+        "txt": [
+          "The Satisfying Visual & Audio Feedback: The delightful pop of clearing bubbles is inherently rewarding.",
+          "The Engaging Blend of Wordplay & Strategy: Constantly challenges both your vocabulary and tactical thinking.",
+          "The Compelling Sense of Progression: Unlocking new levels and achieving higher scores provides strong motivation.",
+          "The Immediate Accessibility: Easy to understand rules allow players to jump right into the fun.",
+          "The Mental Workout: Provides a consistent and enjoyable challenge for your brain and word knowledge.",
+          "The Endless Replayability: With new bubble configurations, every game presents a fresh puzzle."
+        ]
+      }
+    ]
+  },
+  "the-freak-circus": {
+    "h1": "The Freak Circus",
+    "introduction": "Ready for a whimsical challenge? The Freak Circus lets you orchestrate bizarre acts and manage quirky performers. Experience unique strategy and fun!",
+    "link": "https://html-classic.itch.zone/html/14008417/index.html",
+    "overview": [
+      {
+        "title": "The Freak Circus Overview",
+        "txt": [
+          "The Freak Circus is an original puzzle-management game where you curate a collection of peculiar performers, orchestrating their talents to put on the most astonishing (and unsettling) shows possible. It's a whimsical dive into the bizarre!",
+          "Immerse yourself in a darkly charming world where strategy meets eccentricity. Juggle the unique demands of your 'freaks,' enthrall your audience, and unravel the enigmatic history woven into the very fabric of the circus."
+        ]
+      },
+      {
+        "title": "The Freak Circus Game Features",
+        "txt": [
+          "Eclectic Performer Roster: Recruit and manage a diverse cast of uniquely talented, often unpredictable, circus 'freaks.'",
+          "Dynamic Show Management: Strategically place performers and sequence acts for maximum audience impact and bizarre effects.",
+          "Ingenious Puzzles: Solve challenges involving spatial arrangement, timing, and quirky character interactions.",
+          "Behavioral Quirks: Deal with the individual eccentricities, rivalries, and needs of your extraordinary troupe.",
+          "Resource & Reputation System: Balance finances, supplies, and the circus's standing among the public.",
+          "Unfolding Lore: Discover the dark, compelling backstory of each performer and the circus itself.",
+          "Atmospheric Gothic-Carnival Design: A visually stunning and distinct art style that draws you into its eerie charm."
+        ]
+      },
+      {
+        "title": "How to Play The Freak Circus",
+        "txt": [
+          "Review the specific requirements or audience desires for the upcoming circus show.",
+          "Drag and drop your chosen performers onto the stage, positioning them to create powerful act synergies.",
+          "Activate special abilities or unique interactions between performers to trigger spectacular (and sometimes dangerous) effects.",
+          "Keep a close eye on your performers' individual moods and the audience's overall satisfaction levels.",
+          "Respond swiftly to any unexpected incidents or 'freakouts' to maintain control and prevent disaster.",
+          "Manage your circus's economy by earning revenue from successful shows and investing in upgrades or new performers.",
+          "Progress through story-driven missions to unlock new acts, expand your circus, and unveil deeper mysteries."
+        ]
+      },
+      {
+        "title": "Why The Freak Circus is So Addictive",
+        "txt": [
+          "The Sheer Originality: The concept of managing a freak circus is fresh, dark, and utterly compelling.",
+          "The Strategic Depth: Balancing complex performer dynamics and show objectives offers endless replayability.",
+          "The Delightful Unpredictability: The quirks and 'freakouts' of the performers ensure every show is unique.",
+          "The Thrill of Discovery: Uncovering the hidden lore and secrets of the circus is incredibly engaging.",
+          "The Visual & Atmospheric Immersion: The distinctive art style creates a captivating and memorable experience.",
+          "The Sense of Mastery: Successfully orchestrating a chaotic yet brilliant show feels profoundly rewarding."
+        ]
+      }
+    ]
+  },
+  "fire-flush": {
+    "h1": "Fire Flush",
+    "introduction": "Fire Flush: A unique flying adventure! Control Scruffy, douse fires from above, and unlock quirky planes. Experience thrilling aerial action today!",
+    "link": "https://html-classic.itch.zone/html/14008417/index.html",
+    "overview": [
+      {
+        "title": "Fire Flush Overview",
+        "txt": [
+          "Fire Flush is a unique flying adventure game where your primary mission is simple yet crucial: extinguish the spreading fires before they consume everything! You control Scruffy, the brave little corner sprite, soaring through beautiful landscapes, dodging rocks, tunnels, and flames from above.",
+          "But it's more than just putting out fires – players must master timing, aerial maneuvers, and strategic thinking to work wonders. This fresh and exciting game lets you unlock various aircraft, from traditional jets to planes that fly like avocados!"
+        ]
+      },
+      {
+        "title": "Fire Flush Game Features",
+        "txt": [
+          "Unique Firefighting Flight: Control aircraft to extinguish spreading fires across diverse landscapes.",
+          "Adorable Protagonist: Play as Scruffy, the brave corner sprite, in your chosen aircraft.",
+          "Variety of Unlockable Aircraft: Discover and pilot unique planes, from classic jets to unconventional designs like flying avocados.",
+          "Dynamic Fire Mechanics: Witness realistic fire spread, requiring quick action and strategic water drops.",
+          "Challenging Environments: Navigate around rocks, through tunnels, and dodge incoming flames.",
+          "Strategic Water Collection: Refill your water tank by spraying foam over lakes and rivers.",
+          "Gradually Increasing Difficulty: Levels become more challenging, demanding faster reflexes and quicker decisions."
+        ]
+      },
+      {
+        "title": "How to Play Fire Flush",
+        "txt": [
+          "Take Off: Ensure your aircraft is within the fire zone to begin bush searching and flying.",
+          "Refill Your Water Tank: Collect water by spraying foam over lakes and rivers. Dense, low-altitude spins allow for quick refilling – but be careful not to crash!",
+          "Fire Extinguishing Methods: Carefully use water to directly put out fires. Otherwise, flames can spread rapidly!",
+          "Navigate the Area: Avoid rocky outcrops, weave through tunnels, and maneuver around obstacles.",
+          "Use Rewards Wisely: Collect helpful bonuses like speed boosts, fireproof suits, and accurate targeting. Remember, smart flying trumps brute force.",
+          "Controls & Interface:\n   Movement: Use A/D or Left/Right Arrow keys (desktop) for direction and speed control.\n   Water Drop: Press the action button for precise water release where needed.\n   On-Screen Signals: Intuitive indicators guide water levels, availability, and hazardous zones. The clear interface makes it easy for beginners, while experienced players can explore for high scores and unlocks."
+        ]
+      },
+      {
+        "title": "Why Fire Flush is So Addictive",
+        "txt": [
+          "Fire Flush stands out with its engaging visuals and fast-paced firefighting gameplay. It's perfect for action-adventure and arcade enthusiasts, offering a fresh take on flight challenges.",
+          "This game will push your reflexes, requiring split-second decisions as you constantly fight against the clock and spreading flames. The joy of unlocking and piloting a diverse range of quirky aircraft, combined with the satisfying feeling of extinguishing large fires, will keep you coming back for more. Try it free online now and see how far you can fly!"
         ]
       }
     ]
