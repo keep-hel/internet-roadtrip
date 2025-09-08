@@ -1,15 +1,154 @@
+/* 现代化导航栏设计 */
 .nav {
-    background-color: #39823b !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 
+        0 4px 20px rgba(102, 126, 234, 0.15),
+        0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    transition: all 0.3s ease;
+    animation: navGlow 4s ease-in-out infinite;
 }
 
+@keyframes navGlow {
+    0%, 100% {
+        box-shadow: 
+            0 4px 20px rgba(102, 126, 234, 0.15),
+            0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    }
+    50% {
+        box-shadow: 
+            0 6px 25px rgba(102, 126, 234, 0.25),
+            0 1px 0 rgba(255, 255, 255, 0.15) inset;
+    }
+}
+
+.nav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.nav:hover {
+    box-shadow: 
+        0 8px 32px rgba(102, 126, 234, 0.25),
+        0 1px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+/* 品牌标题样式 */
 .first {
-    color: black;
-    line-height: 40px;
-    font-weight: bold;
-    font-size: 20px;
-    background: linear-gradient(to right, #181bf6,#74fb50, #efc74c); /*设置渐变的方向从左到右 颜色从ff0000到ffff00*/
-    -webkit-background-clip: text;/*将设置的背景颜色限制在文字中*/
-    -webkit-text-fill-color: transparent;/*给文字设置成透明*/
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 30%, #fecfef 70%, #ff9a9e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    position: relative;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    letter-spacing: -0.5px;
+}
+
+.first::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(ellipse at center, rgba(255, 154, 158, 0.1) 0%, transparent 70%);
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.first:hover {
+    transform: translateY(-2px);
+    text-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.first:hover::before {
+    opacity: 1;
+}
+
+/* 导航链接样式 */
+.nav a {
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.nav a:hover::before {
+    left: 100%;
+}
+
+.nav a:hover {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    border-color: rgba(16, 185, 129, 0.5);
+}
+
+.nav a[aria-current="page"] {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    border-color: rgba(16, 185, 129, 0.5);
+}
+
+/* 移动端菜单按钮 */
+.nav .group {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.nav .group:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* 响应式设计 */
+@media (max-width: 640px) {
+    .first {
+        font-size: 1.25rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    .nav {
+        backdrop-filter: blur(15px);
+    }
 }
 
 .privacy {
@@ -21,7 +160,8 @@
 
 
 .privacy .privacy-txt {
-  width: 800px;
+  max-width: 800px;
+  width: 95%;
   margin: 100px auto;
   padding: 20px;
   line-height: 40px;

@@ -1,7 +1,6 @@
 'use client'
 import "./mainGenerator.css";
 import Image from "next/image";
-import MyButton from './mybutton'
 import MyButton2 from './mybutton2'
 import Head from 'next/head'
 import Link from "next/link";
@@ -49,16 +48,14 @@ export default function Example() {
         <meta name="google-adsense-account" content="ca-pub-1232219942277862"></meta>
       </Head>
       {/* <h2 className="order-tt tracking-tight">Games</h2> */}
-      <div className="game">
-        <Image className="img dark:invert" src="/game.png" alt="Internet Roadtrip" width={450} height={38} priority />
+      <div className="game slide-in-up float">
+        <Image className="img" src="/game.png" alt="Internet Roadtrip" width={450} height={38} priority />
         <h1 className="h1-title text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl" >Internet Roadtrip</h1>
-        <div className="btn" onClick={() => openPopup()}>
-          {/* <a href="https://neal.fun/internet-roadtrip/" target="_blank" rel="noopener noreferrer"> */}
-          paly now!
-          {/* </a> */}
+        <div className="btn ripple focus-ring" onClick={() => openPopup()}>
+          PLAY NOW!
         </div>
       </div>
-      <div className="overview" id="overview">
+      <div className="overview slide-in-up" id="overview">
         <h2 className="tt">
           Internet Roadtrip Overview
         </h2>
@@ -85,7 +82,7 @@ export default function Example() {
         </h2>
         <div>
           <div>Collective Decision-Making: Every ten seconds, online participants vote on the direction the virtual car should travel.</div>
-          <div>Real-time Street View: The screen displays the street view of the car's current location, providing an immersive experience.</div>
+          <div>Real-time Street View: The screen displays the street view of the car&apos;s current location, providing an immersive experience.</div>
           <div>Path Map: A map at the bottom shows the route the car has already traveled.</div>
           <div>Interactive Elements: You can also vote to change the virtual radio station, adding to the fun of the journey.</div>
           <div>Unpredictability: Since the route is determined by collective voting, each trip is unique and unpredictable.</div>
@@ -94,23 +91,27 @@ export default function Example() {
           Why You Should Try Internet Roadtrip
         </div>
         <div>
-          <div>It recreates the fun and weirdness of the early internet, evoking a sense of the internet's initial excitement and exploration.</div>
-          <div>It's a novel social experience, bringing people together to collectively create an ever-evolving journey.</div>
+          <div>It recreates the fun and weirdness of the early internet, evoking a sense of the internet&apos;s initial excitement and exploration.</div>
+          <div>It&apos;s a novel social experience, bringing people together to collectively create an ever-evolving journey.</div>
           <div>Its unpredictability and community-driven nature make it captivating, leaving players curious about what will happen next.</div>
-          <div>It's simple yet engaging, allowing anyone to jump in and enjoy the experience immediately.</div>
-          <div>So, Let's try this <MyButton2 /> game.</div>
+          <div>It&apos;s simple yet engaging, allowing anyone to jump in and enjoy the experience immediately.</div>
+          <div>So, Let&apos;s try this <MyButton2 /> game.</div>
         </div>
 
       </div>
-      <h2 className="order-tt tracking-tight">Hot Game</h2>
+      <h2 className="order-tt tracking-tight fade-in">Hot Games</h2>
       <div className="order">
         {
           arr.map((item, index) => (
             <Link key={index} href={{ pathname: item }}>
-              <div className="game2" >
-                <Image className="img dark:invert" src={`/${item}.png`} alt={datasObj[item].h1} width={322} height={38} priority />
-                <h3 className="game2-tt">{datasObj[item].h1}</h3>
-                <div className="game2-btn">play</div>
+              <div className="game slide-in-up ripple" style={{ animationDelay: `${index * 0.1}s` }}>
+                <div className="game-image-container">
+                  <Image className="img" src={`/${item}.png`} alt={datasObj[item].h1} width={322} height={192} priority />
+                </div>
+                <div className="game-content-container">
+                  <h3 className="game-tt">{datasObj[item].h1}</h3>
+                  <div className="game-btn focus-ring">Play</div>
+                </div>
               </div>
             </Link>
           ))
