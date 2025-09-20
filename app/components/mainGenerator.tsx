@@ -2,7 +2,6 @@
 import "./mainGenerator.css";
 import Image from "next/image";
 import MyButton2 from './mybutton2'
-import Head from 'next/head'
 import Link from "next/link";
 import datas from './../data.json';
 interface DataItem {
@@ -32,21 +31,6 @@ export default function Example() {
         <div className="left">
         </div>
       </div>
-      <Head>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-1PPX0HM5S3`} />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'G-1PPX0HM5S3');
-              `,
-          }}
-        />
-        <meta name="google-adsense-account" content="ca-pub-1232219942277862"></meta>
-      </Head>
       {/* <h2 className="order-tt tracking-tight">Games</h2> */}
       <div className="game slide-in-up float">
         <Image className="img" src="/game.png" alt="Internet Roadtrip" width={450} height={38} priority />

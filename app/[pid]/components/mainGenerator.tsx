@@ -1,6 +1,5 @@
 'use client'
 import "./mainGenerator.css";
-import Head from 'next/head'
 import datas2 from './../../data.json';
 import Image from "next/image";
 import Link from "next/link";
@@ -43,21 +42,6 @@ export default function Example({ datas }: { datas: { h1: string, introduction: 
   }
   return (
     <div>
-      <Head>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-1PPX0HM5S3`} />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'G-1PPX0HM5S3');
-              `,
-          }}
-        />
-        <meta name="google-adsense-account" content="ca-pub-1232219942277862"></meta>
-      </Head>
       <div className="main">
         <div className="left">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">{datas.h1}</h1>
@@ -84,7 +68,7 @@ export default function Example({ datas }: { datas: { h1: string, introduction: 
             }
           </div>
         ))}
-        So, Let's try this <span className="span-font" onClick={() => scrollToAnchor("games")}>{datas.h1}</span> game.
+        So, Let&apos;s try this <span className="span-font" onClick={() => scrollToAnchor("games")}>{datas.h1}</span> game.
       </div>
       <h2 className="order-tt tracking-tight">Hot Game</h2>
       <div className="order">

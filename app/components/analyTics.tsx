@@ -8,7 +8,7 @@ export default class AnalyTics extends Document {
         <Head>
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-7P419DY80C`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-1PPX0HM5S3`}
           />
 
           <script
@@ -18,7 +18,7 @@ export default class AnalyTics extends Document {
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
             
-                gtag('config', 'G-T2YBNJG28D');
+                gtag('config', 'G-1PPX0HM5S3');
               `,
             }}
           />
