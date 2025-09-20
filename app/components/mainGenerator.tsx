@@ -3,6 +3,7 @@ import "./mainGenerator.css";
 import Image from "next/image";
 import MyButton2 from './mybutton2'
 import Link from "next/link";
+import Script from "next/script";
 import datas from './../data.json';
 interface DataItem {
   h1: string;
@@ -39,6 +40,18 @@ export default function Example() {
           PLAY NOW!
         </div>
       </div>
+      
+      {/* 广告区域 */}
+      <div className="ad-container my-8 px-4 text-center">
+        <div className="text-xs text-gray-500 mb-2">Advertisement</div>
+        <Script
+          src="//pl27684341.revenuecpmgate.com/59f98ec0411fc0ea385b9e20ef8315de/invoke.js"
+          strategy="lazyOnload"
+          data-cfasync="false"
+        />
+        <div id="container-59f98ec0411fc0ea385b9e20ef8315de"></div>
+      </div>
+      
       <div className="overview slide-in-up" id="overview">
         <h2 className="tt">
           Internet Roadtrip Overview
